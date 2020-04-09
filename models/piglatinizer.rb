@@ -2,6 +2,8 @@ require 'pry'
 
 class PigLatinizer
 
+
+
   def has_vowel?(c)
    
     if c == nil || c == ''
