@@ -43,6 +43,12 @@ end
      pig[0] = ''
      pig[0] = ''
      pig += c + "ay"
+     elsif has_vowel?(pig[0]) == true && has_vowel?(pig[1]) == true  
+      c = pig[0] + pig[1] + pig[2]
+     pig[0] = ''
+     pig[0] = ''
+     pig[0] = ''
+     pig += c + "ay"
    end
    output += pig + " "
     # binding.pry
